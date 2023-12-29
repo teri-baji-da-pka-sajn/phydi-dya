@@ -1,13 +1,13 @@
-version = 'V12.2'
+version = 'V12.3'
 
 type = 'Free'
 
-locl = 'en_GB'
-locll = 'GB'
+locl = 'bt_BR'
+locll = 'BR'
 
 def uaa():
     ss = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
-    sss = ';[FBAN/Orca-Android;FBAV/196.0.0.63;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/479125028;FBCR/GOLAN T;FBMF/vivo;FBBD/vivo;FBDV/V2166;FBSV/12.0.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.5,width=720,height=1280};FB_FW/1;FBRV/411803073;]'
+    sss = ';[FBAN/Orca-Android;FBAV/196.0.0.76;FBPN/com.facebook.orca;FBLC/bt_BR;FBBV/478290125;FBCR/VIVO;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/M1908C3JG;FBSV/9.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2340};FB_FW/1;FBRV/706054332;]'
     ua = ss + sss
     #print(ua)
     return ua
