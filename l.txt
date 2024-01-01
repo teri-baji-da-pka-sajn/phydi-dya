@@ -7,7 +7,7 @@ locll = 'SI'
 
 def uaa():
     ss = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
-    sss = '[FBAN/FB4A;FBAV/442.0.0.44.114;FBBV/541369658;FBDM/{density=3.0,width=1080,height=1920};FBLC/sl_SI;FBRV/544235279;FBCR/Mobitel;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Mi	Note	2;FBSV/8.2;FBOP/1;FBCA/arm64-v8a:;]'
+    sss = '[FBAN/FB4A;FBAV/442.0.0.44.114;FBBV/541369658;FBDM/{density=2.5,width=1080,height=1920};FBLC/sl_SI;FBRV/544235279;FBCR/Mobitel;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Mi Note 2;FBSV/6.0;FBOP/1;FBCA/arm64-v8a:;]'
     ua = ss + sss
     #print(ua)
     return ua
