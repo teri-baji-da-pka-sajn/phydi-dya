@@ -1,13 +1,13 @@
-version = 'V12.3'
+version = 'V12.4'
 
 type = 'Free'
 
-locl = 'sl_SI'
-locll = 'SI'
+locl = 'en_US'
+locll = 'US'
 
 def uaa():
     ss = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
-    sss = '[FBAN/FB4A;FBAV/442.0.0.44.114;FBBV/541369658;FBDM/{density=2.5,width=1080,height=1920};FBLC/sl_SI;FBRV/544235279;FBCR/Mobitel;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Mi Note 2;FBSV/6.0;FBOP/1;FBCA/arm64-v8a:;]'
+    sss = '[FBAN/FB4A;FBAV/443.0.0.23.229;FBBV/543547987;FBDM/{density=2.5,width=1080,height=1920};FBLC/en_US;FBRV/545230163;FBCR/Metro by T-Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G360GY;FBSV/4.4.4;FBOP/1;FBCA/arm64-v8a:;]'
     ua = ss + sss
     #print(ua)
     return ua
