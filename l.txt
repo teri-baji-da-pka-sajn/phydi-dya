@@ -7,7 +7,7 @@ locll = 'US'
 
 def uaa():
     ss = f'[FBAN/FB4A;FBAV/{random.randint(11,99)}.0.0.{random.randint(1111,9999)};FBBV/{random.randint(111111,9999999)};'
-    sss = '[FBAN/EMA;FBBV/509523294;FBAV/370.0.0.16.116;FBDV/TECNO BF6;FBSV/12;FBCX/OkHttp3;FBDM/{density=2.0}]'
+    sss = '[FBAN/FB4A;FBAV/273.0.0.39.123;FBBV/218047971;FBDM/{density=2.0,width=540,height=960};FBLC/en_US;FBRV/219312803;FBCR/Tigo;FBMF/Prestigio;FBBD/Prestigio;FBPN/com.facebook.katana;FBDV/PSP5504DUO;FBSV/4.4.2;FBOP/1;FBCA/arm64-v8a:;]'
     ua = ss + sss
     #print(ua)
     return ua
