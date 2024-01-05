@@ -5,10 +5,9 @@ type = 'Free'
 locl = 'en_US'
 locll = 'US'
 
-
 def uaa():
-    ss = f'[FBAN/FB4A;FBAV/{str(random.randint(10,900))}.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/FB4A;FBAV/273.0.0.39.123;FBBV/218047954;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/219557400;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG-SM-W2019Z;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
+    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; CPH2465 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'
+    sss = '[FBAN/FB4A;FBAV/442.0.0.44.114;FBBV/541369658;FBDM/'+'{density=3.5,width=1080,height=2400}'+';FBLC/ru_RU;FBRV/543878310;FBCR/Orange;FBMF/OnePlus TechnologyFBBD/OnePlus;FBPN/com.facebook.katana;FBDV/CPH2465;FBSV/13;FBOP/1;FBCA/arm64-v8a:;]'
     ua = ss + sss
     #print(ua)
     return ua
