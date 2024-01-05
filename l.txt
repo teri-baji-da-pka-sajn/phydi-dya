@@ -1,13 +1,14 @@
-version = 'V13.2'
+version = 'V13.3'
 
 type = 'Free'
 
 locl = 'en_US'
 locll = 'US'
 
+
 def uaa():
     ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/FB4A;FBAV/59.0.0.15.313;FBBV/20097175;FBDM/'+'{density=3.0,width=1080,height=1920}'+';FBLC/en_UM;FBCR/Lyca Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A700L;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]'
+    sss = '[FBAN/Orca-Android;FBAV/196.0.0.33;FBPN/com.facebook.orca;FBLC/en_US;FBBV/589078506;FBCR/Total;FBMF/samsung;FBBD/samsung;FBDV/SM-A336M;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2400};FB_FW/1;FBRV/759550720;]'
     ua = ss + sss
     #print(ua)
     return ua
