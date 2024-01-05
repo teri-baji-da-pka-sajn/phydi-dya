@@ -7,8 +7,8 @@ locll = 'US'
 
 
 def uaa():
-    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; V2027 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/45.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/Orca-Android;FBAV/196.0.0.33;FBPN/com.facebook.orca;FBLC/en_US;FBBV/589078506;FBCR/Total;FBMF/samsung;FBBD/samsung;FBDV/SM-A336M;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2400};FB_FW/1;FBRV/759550720;]'
+    ss = f'[FBAN/FB4A;FBAV/{str(random.randint(10,900))}.0.0.{str(random.randint(1000,9000))};FBBV/{str(random.randint(100000,900000))};'
+    sss = '[FBAN/FB4A;FBAV/273.0.0.39.123;FBBV/218047954;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/219557400;FBCR/Verizon;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG-SM-W2019Z;FBSV/8.1.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
     ua = ss + sss
     #print(ua)
     return ua
