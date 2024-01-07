@@ -3,7 +3,7 @@ version = 'V13.5'
 type = 'Free'
 
 def uaa():
-    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; GT-S5283B Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/{random.randint(11,999).0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
+    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; GT-S5283B Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)})[FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
     sss = '[FBAN/FB4A;FBAV/359.0.0.30.118;FBBV/358614015;FBDM/{density=1.5,width=240,height=320};FBLC/en_ZW;FBRV/359080319;FBCR/Econet;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-S5283B;FBSV/4.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
     ua = ss + sss
     #print(ua)
