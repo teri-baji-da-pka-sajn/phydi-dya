@@ -1,10 +1,10 @@
-version = 'V13.7'
+version = 'V13.8'
 
 type = 'Free'
 
 def uaa():
-    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-T570NZKEXSA Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/FB4A;FBAV/359.0.0.30.118;FBBV/358614015;FBDM/{density=3.0,width=1200,height=1920};FBLC/es_BO;FBRV/359080319;FBCR/Entel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T570NZKEXSA;FBSV/10;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; GT-B5512 Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
+    sss = '[FBAN/FB4A;FBAV/359.0.0.30.118;FBBV/358614015;FBDM/{density=1.0,width=240,height=320};FBLC/es_CO;FBRV/359080319;FBCR/Tigo Une;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-B5512;FBSV/2.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
     ua = ss + sss
     #print(ua)
     return ua
