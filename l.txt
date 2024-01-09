@@ -1,6 +1,6 @@
 version = 'V14.0'
 
-type = 'Free'
+type = 'Paid'
 
 def uaa():
     ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-A042M Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
