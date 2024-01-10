@@ -1,10 +1,10 @@
-version = 'V14.1'
+version = 'V14.2'
 
 type = 'Paid'
 
 def uaa():
-    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-A045F Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/FB4A;FBAV/338.1.0.36.118;FBBV/321391463;FBDM/{density=2.0,width=720,height=1600};FBLC/en_ZA;FBRV/322682479;FBCR/Vodacom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A045F;FBSV/12;FBOP/19;FBCA/arm64-v8a:;]'
+    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-A826S Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
+    sss = '[FBAN/FB4A;FBAV/338.1.0.36.118;FBBV/321391463;FBDM/{density=4.0,width=1440,height=3200};FBLC/en_TC;FBRV/322682479;FBCR/Flow;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A826S;FBSV/11;FBOP/19;FBCA/arm64-v8a:;]'
     ua = ss + sss
     #print(ua)
     return ua
