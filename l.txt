@@ -1,10 +1,9 @@
-version = 'V14.3'
+version = 'V14.4'
 
 type = 'Paid'
 
 def uaa():
-    ss = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; Vivo 5R Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) [FBAN/FB4A;FBAV/{str(random.randint(11,999))}.0.0.{str(random.randint(100,9000))};FBBV/{str(random.randint(100000,900000))};'
-    sss = '[FBAN/FB4A;FBAV/338.1.0.36.118;FBBV/321391463;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_MT;FBRV/322682479;FBCR/GO;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/Vivo 5R;FBSV/6.0;FBOP/19;FBCA/arm64-v8a:;]'
-    ua = ss + sss
-    #print(ua)
+    a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+    b = ";[FBAN/FB4A;FBAV/75.0.0.23.69;FBBV/29142907;FBDM/"+"{density=2.0,width=480,height=800};"+"FBLC/en_IM;"+"FBCR/Manx;FBMF/Motorola;FBBD/Motorola;FBPN/com.facebook.katana;FBDV/TC55;FBSV/4.1.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+    ua = a+b
     return ua
