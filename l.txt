@@ -4,6 +4,6 @@ type = 'Paid'
 
 def uaa():
     a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
-    b = ";[FBAN/Orca-Android;FBAV/196.0.0.72;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/959423022;FBCR/Vodefone US;FBMF/samsung;FBBD/samsung;FBDV/GT-S6810M;FBSV/9.3.1;FBCA/armeabi-v7a:armeabi;FBDM/"+"{density=2.0,width=720,height=1280}"+";FB_FW/1;FBRV/196240670;]"
+    b = ";[FBAN/Orca-Android;FBAV/196.0.0.27;FBPN/com.facebook.orca;FBLC/es_ES;FBBV/620548356;FBCR/Plus;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/21081111RG;FBSV/8.5.3;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=1280,height=1080};FB_FW/1;FBRV/107866001;]"
     ua = a+b
     return ua
