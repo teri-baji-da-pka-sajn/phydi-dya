@@ -1,8 +1,8 @@
-version = 'V14.8'
+version = 'V14.9'
 
 type = 'Paid'
 
 def uaa():
-	END  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+f";[FBAN/"+"Orca-Android;FBAV/"+"196.0.0.27;FBPN/"+"com.facebook.orca;FBLC/"+"gu_IN;FBBV/"+"620548356;FBCR/"+"Airtel;FBMF/"+"SKY;FBBD/"+"SKY;FBDV/"+"IM-A720L;FBSV/"+"2.2;FBCA/"+"armeabi-v7a:armeabi;FBDM/"+"{density=2.0,width=480,height=800};FB_FW/"+"1;FBRV/"+"107866001;]"
+	END  = "[FBAN/FB4A;FBAV/"+str(random.randint(11,77))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,77)) +";FBBV/"+str(random.randint(1111111,7777777))+f";[FBAN/"+"Orca-Android;FBAV/"+"196.0.0.27;FBPN/"+"com.facebook.orca;FBLC/"+"cs_CZ;FBBV/"+"620548356;FBCR/"+"Vodafone;FBMF/"+"OPPO;FBBD/"+"OPPO;FBDV/"+"X9076;FBSV/"+"4.3;FBCA/"+"armeabi-v7a:armeabi;FBDM/"+"{density=3.0,width=1440,height=2560};FB_FW/"+"1;FBRV/"+"107866001;]"
 	ua = random.choice([f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; IM-A720L Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))",])+END
 	return ua
