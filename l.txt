@@ -4,6 +4,6 @@ type = 'Paid'
 
 def uaa():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-	b = "[FBAN/"+"FB4A;FBAV/"+"445.0.0.34.118;FBBV/"+"448014984;FBDM/"+"{density=2.0,width=540,height=960};FBLC/"+"pt_GW;FBRV/"+"199646485;FBCR/"+"Getesa;FBMF/"+"Sony;FBBD/"+"Sony;FBPN/"+"com.facebook.katana;FBDV/"+"XE2033;FBSV/"+"4.4.4;FBOP/"+"1;FBCA/"+"arm64-v8a:;]","[FBAN/FB4A;FBAV/443.0.0.23.229;FBBV/447626277;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/GCI;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/G8342;FBSV/8.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]"
+	b = "[FBAN/"+"FB4A;FBAV/"+"445.0.0.34.118;FBBV/"+"448014984;FBDM/"+"{density=2.0,width=540,height=960};FBLC/"+"pt_GW;FBRV/"+"199646485;FBCR/"+"Getesa;FBMF/"+"Sony;FBBD/"+"Sony;FBPN/"+"com.facebook.katana;FBDV/"+"XE2033;FBSV/"+"4.4.4;FBOP/"+"1;FBCA/"+"arm64-v8a:;]","[FBAN/FB4A;FBAV/443.0.0.23.229;FBBV/447626277;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/GCI;FBMF/Sony;FBBD/Sony;FBPN/com.facebook.katana;FBDV/G8342;FBSV/8.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]","[FBAN/Orca-Android;FBAV/251.0.0.12.117;FBPN/com.facebook.orca;FBLC/ru_RU;FBBV/197803937;FBCR/lifecell;FBMF/LENOVO;FBBD/Lenovo;FBDV/Lenovo A6020a46;FBSV/5.1.1;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;] FBBK/"
 	ua = a + random.choice(b)
 	return ua
