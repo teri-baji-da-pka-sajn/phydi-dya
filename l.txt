@@ -1,9 +1,10 @@
-version = 'V16.2'
+version = 'V16.3'
 
 type = 'Paid'
 
+
 def uaa():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-	b = '[FBAN/Orca-Android;FBAV/199.0.0.36.95;FBPN/com.facebook.orca;FBLC/en_US;FBBV/119072539;FBCR/TM;FBMF/samsung;FBBD/samsung;FBDV/P260;FBSV/10;FBCA/armeabi v7a:armeabi;FBDM/{density=1.5,width=480,height=854};]','[FBAN/Orca-Android;FBAV/41.0.0.51.87;FBPN/com.facebook.orca;FBLC/en_US;FBBV/850903724;FBCR/3;FBMF/samsung;FBBD/samsung;FBDV/C6712 Star II DUOS;FBSV/10;FBCA/arm64-v8a:;FBDM/{density=1.9125,width=720,height=1400};]','[FBAN/Orca-Android;FBAV/358.0.0.96.55;FBPN/com.facebook.orca;FBLC/en_US;FBBV/174837915;FBCR/WCW;FBMF/samsung;FBBD/samsung;FBDV/A300;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=2116};]','[FBAN/FB4A;FBAV/196.0.0.25;FBBV/833645503;FBDM/{density=2.0,width=1080,height=1440};FBLC/fr_FR;FBRV/445214032;FBCR/IND-JIO;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N981B;FBSV/8.1.1;nullFBCA/armeabi-v7a:armeabi;]'
+	b = '[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/443010639;FBDM/{density=2.0,width=720,height=1600};FBLC/en_US;FBRV/0;FBCR/Verizon;FBMF/TECNO;FBBD/TECNO;FBPN/com.facebook.katana;FBDV/TECNO-N9S;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/419.0.0.37.71;FBBV/442812559;FBDM/{density=1.75,width=720,height=1280};FBLC/en_GB;FBRV/0;FBCR/AT&T;FBMF/LAVA;FBBD/LAVA;FBPN/com.facebook.katana;FBDV/A71;FBSV/5.1;FBOP/1;FBCA/arm64-v8a:;]'
 	ua = a + random.choice(b)
 	return ua
