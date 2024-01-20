@@ -1,10 +1,10 @@
-version = 'V16.3'
+version = 'V16.4'
 
 type = 'Paid'
 
 
 def uaa():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-	b = '[FBAN/FB4A;FBAV/420.0.0.32.61;FBBV/443010639;FBDM/{density=2.0,width=720,height=1600};FBLC/en_US;FBRV/0;FBCR/Verizon;FBMF/TECNO;FBBD/TECNO;FBPN/com.facebook.katana;FBDV/TECNO-N9S;FBSV/6.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/419.0.0.37.71;FBBV/442812559;FBDM/{density=1.75,width=720,height=1280};FBLC/en_GB;FBRV/0;FBCR/AT&T;FBMF/LAVA;FBBD/LAVA;FBPN/com.facebook.katana;FBDV/A71;FBSV/5.1;FBOP/1;FBCA/arm64-v8a:;]'
+	b = '[FBAN/Orca-Android;FBAV/298.0.0.81.86;FBPN/com.facebook.orca;FBLC/en_US;FBBV/526745602;FBCR/TIM 62;FBMF/samsung;FBBD/samsung;FBDV/B3410;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.1875,width=1080,height=2190};]','[FBAN/FB4A;FBAV/79.0.0.97.20;FBPN/com.facebook.katana;FBLC/en_US;FBBV/665276095;FBCR/HOME;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Redmi K60;FBSV/15.0.1;FBCA/arm64-v8a:;FBDM/{density=2.625,width=1080,height=2200};FB_FW/1;]','[FBAN/FB4A;FBAV/193.0.0.29.75;FBPN/com.facebook.katana;FBLC/en_US;FBBV/418984307;FBCR/KYIVSTAR;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/12;FBSV/15.0;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1410};FB_FW/1;]','[FBAN/FB4A;FBAV/21.0.0.46.37;FBPN/com.facebook.katana;FBLC/en_US;FBBV/862048274;FBCR/Kyivstar;FBMF/samsung;FBBD/samsung;FBDV/S3550 Shark 3;FBSV/15.2.1;FBCA/arm64-v8a:;FBDM/{density=3.0,width=1080,height=1800};FB_FW/1;]','[FBAN/FB4A;FBAV/237.0.0.39.65;FBPN/com.facebook.katana;FBLC/en_US;FBBV/386260287;FBCR/Telekom.de;FBMF/samsung;FBBD/samsung;FBDV/Galaxy Watch6;FBSV/4.2.1;FBCA/arm64-v8a:;FBDM/{density=3.375,width=1080,height=2032};FB_FW/1;]','[FBAN/FB4A;FBAV/120.0.0.20.42;FBPN/com.facebook.katana;FBLC/en_US;FBBV/764972438;FBCR/CLARO;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Redmi 10 2022;FBSV/12.4.1;FBCA/armeabi v7a:armeabi;FBDM/{density=1.75,width=720,height=1280};FB_FW/1;]','[FBAN/FB4A;FBAV/266.0.0.45.13;FBPN/com.facebook.katana;FBLC/en_US;FBBV/734582960;FBCR/TELCELFBMF/ Hisense;FBMF/OPPO;FBBD/OPPO;FBDV/F11;FBSV/10.0.17134.765;FBCA/arm64-v8a:null;FBDM/{density=1.875,width=720,height=1475};FB_FW/1;]','[FBAN/FB4A;FBAV/156.0.0.27.20;FBPN/com.facebook.katana;FBLC/en_US;FBBV/355825824;FBCR/+Movil;FBMF/samsung;FBBD/samsung;FBDV/Galaxy A;FBSV/15.4.1;FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density=2.75,width=1080,height=2270};FB_FW/1;]'
 	ua = a + random.choice(b)
 	return ua
