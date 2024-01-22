@@ -5,6 +5,6 @@ type = 'Paid'
 
 def uaa():
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-	b = '[FBAN/FB4A;FBAV/417.0.0.33.65;FBBV/442410873;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/Mobilis;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SAMSUNG-SCH-I545L;FBSV/4.2.2;FBOP/1;FBCA/arm64-v8a:;]','[FBAN/FB4A;FBAV/418.0.0.33.69;FBBV/442611883;FBDM/{density=2.0,width=800,height=1280};FBLC/en_US;FBRV/553270707;FBCR/EE;FBMF/Quanta;FBBD/Quanta;FBPN/com.facebook.katana;FBDV/QMV7A;FBSV/4.2.2;FBOP/1;FBCA/arm64-v8a:;]','[FBAN/FB4A;FBAV/196.0.0.10;FBBV/285562490;FBDM/{density=1.0,width=1280,height=1440};FBLC/si_LK;FBRV/631914787;437139283;FBCR/VIRGIN;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 6A;FBSV/13.0.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+	b = '[FBAN/FB4A;FBAV/196.0.0.29;FBBV/681459619;FBDM/{density=1.5,width=720,height=1440};FBLC/en_IN;FBRV/337911727;FBCR/Movil GSM;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N986B;FBSV/8.4.4;nullFBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/196.0.0.29;FBBV/681459619;FBDM/{density=1.5,width=720,height=1440};FBLC/en_IN;FBRV/337911727;FBCR/Movil GSM;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N986B;FBSV/8.4.4;nullFBCA/armeabi-v7a:armeabi;]'
 	ua = a + random.choice(b)
 	return ua
