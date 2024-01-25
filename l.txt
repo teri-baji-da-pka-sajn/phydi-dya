@@ -1,9 +1,10 @@
-version = 'V17.1'
+version = 'V17.2'
 
 type = 'Paid'
 
 def uaa():
+	s = f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-J415FN Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(11,99))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,99999999))+";"
-	b = '[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=1.5,width=480,height=800};FBLC/ki_KE;FBCR/Faiba;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/GT-I9100TFBSV/2.3.4;nullFBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/257.0.0.44.118;FBBV/197851391;FBDM/{density=3.0,width=1080,height=1812};FBLC/en_US;FBRV/201443087;FBCR/Our Telekom;FBMF/HUAWEI;FBBD/Huawei;FBPN/com.facebook.katana;FBDV/HUAWEI MT7-TL10;FBSV/4.4.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]','[FBAN/FB4A;FBAV/345.0.0.34.118;FBBV/332957652;FBDM/{density=2.0,width=720,height=1440};FBLC/ru_RU;FBRV/335247818;FBCR/Safaricom;FBMF/HUAWEI;FBBD/HONOR;FBPN/com.facebook.katana;FBDV/DUA-L22;FBSV/8.1.0;FBOP/1;FBCA/arm64-v8a:;]'
-	ua = a + random.choice(b)
+	b = '[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=2.0,width=720,height=1480};FBLC/nl_BE;FBCR/Digicel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J415FN;FBSV/9;nullFBCA/armeabi-v7a:armeabi;]'
+	ua = a + b
 	return ua
