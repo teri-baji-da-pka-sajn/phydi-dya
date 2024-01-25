@@ -1,9 +1,9 @@
-version = 'V16.9'
+version = 'V17.0'
 
 type = 'Paid'
 
 def uaa():
-	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))+";"
-	b = '[FBAN/FB4A;FBAV/196.0.0.88;FBBV/990147883;FBDM/{density=2.5,width=720,height=1920};FBLC/en_IN;FBRV/742397415;FBCR/WOM;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/vivo Xplay6;FBSV/12.3.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(11,99))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(111111111,99999999))+";"
+	b = '[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=2.0,width=720,height=1280};FBLC/en_GB;FBCR/IND airtel;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-T311|KOT49H;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]'
 	ua = a + b
 	return ua
