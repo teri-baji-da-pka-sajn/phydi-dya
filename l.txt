@@ -5,6 +5,6 @@ type = 'Paid'
 def uaa():
 	s = f"Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; SM-J415FN Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}))"
 	a = "[FBAN/FB4A;FBAV/"+str(random.randint(111,999))+'.0.0.'+str(random.randrange(11,99))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,99999999))+";"
-	b = '[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=3.0,width=720,height=1520};FBLC/tr_TR;FBCR/Türk Telekom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A105FN;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]'
+	b = '[FBAN/FB4A;FBAV/61.0.0.15.69;FBBV/20748110;FBDM/{density=3.0,width=720,height=1520};FBLC/tr_TR;FBCR/Turkcell;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A105FN;FBSV/10;nullFBCA/armeabi-v7a:armeabi;]'
 	ua = s + a + b
 	return ua
